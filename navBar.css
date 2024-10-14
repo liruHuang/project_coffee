@@ -1,0 +1,44 @@
+.navBar {
+  background-color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.navBar a {
+  color: brown;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.navBar a:hover {
+  background-color: brown;
+  background-size: 50px;
+  color: white
+}
+
+
+.pageItem {
+  background-color: beige;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.pageItem a {
+  background-color: beige;
+  color: brown;
+  padding: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+
+.pageItem a:hover {
+  background-color: brown;
+  background-size: 50px;
+  color: white
+}

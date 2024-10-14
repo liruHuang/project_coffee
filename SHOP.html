@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./navBar.css">
+    <link rel="stylesheet" href="./w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <script src="./_js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        .fontCafe {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+
+        img[src^=".//phtoto"]:hover {
+            opacity: 50%;
+            cursor: pointer
+        }
+
+        #addCart:hover {
+            background-color: beige;
+            border: none;
+            color: brown;
+            font-weight: bold;
+        }
+
+        .bgColor {
+            background-color: brown;
+            color: beige;
+            opacity: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div clas="container" id="home">
+        <div class="row navBar fixed-top">
+            <div class="col-3"><a href="http://127.0.0.1:5500/porject/%E5%B0%8F%E5%B0%88.html#home" class>HOME</a></div>
+            <div class="col-3"><a href="#beans">SHOP</a></div>
+            <div class="col-3"><a href="http://127.0.0.1:5500/porject/%E5%B0%8F%E5%B0%88.html#menu">MENU</a></div>
+            <div class="col-3"><a href="http://127.0.0.1:5500/porject/%E5%B0%8F%E5%B0%88.html#book">BOOK</a></div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="conatiner">
+                <img src="../porject/phtoto/HomeImg.jpeg" width="100%" height="50%">
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <div calss="contiainer ml-2" style="text-align: center;" id="productImg">
+        <div class="container" id="beans" style="padding-bottom: 20px; padding-top: 20px;">
+            <div class="w3-content">
+                <h5 class="w3-padding-48"><span class="w3-tag w3-wide btn-Item" style="font-size: 30px;">咖啡豆品項</span>
+                </h5>
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <div class="container">
+                            <img src=".//phtoto/800x.jpg" style="width: 100%;">
+                            <p class="m-2">衣索比亞 古吉區 中深焙<br><b> NT $699</b></p>
+                            <button class="btn bgColor mb-5" id="addCart">加入購物車 <i class="bi bi-cart-plus"
+                                    style="font: 60px;"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="container">
+                            <img src=".//phtoto/cafe.jpg" style="width: 100%;">
+                            <p class="m-2">宏都拉斯 瓦倫蒂娜莊園 半磅<br><b> NT $480</b></p>
+                            <button class="btn bgColor mb-5" id="addCart">加入購物車 <i class="bi bi-cart-plus"
+                                    style="font: 60px;"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <div class="container">
+                            <img src=".//phtoto/yello.jpg" style="width: 100%;">
+                            <p class="m-2">葉門 瑪娜卡 日曬摩卡 半磅<br><b> NT $1200</b></p>
+                            <button class="btn bgColor mb-5" id="addCart">加入購物車 <i class="bi bi-cart-plus"
+                                    style="font: 60px;"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <br><br><br><br><br><br>
+
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <div class="container">
+                                <img src=".//phtoto/Barci.jpg" style="width: 100%;">
+                                <p class="m-2">巴西 達特拉莊園 半磅<br><b> NT $550</b></p>
+                                <button class="btn bgColor mb-5" id="addCart">加入購物車 <i class="bi bi-cart-plus"
+                                        style="font: 60px;"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="container">
+                                <img src=".//phtoto/ethiopia.jpg" style="width: 100%;">
+                                <p class="m-2">衣索比亞 吉瑪莉姆 半磅<br><b> NT $580</b></p>
+                                <button class="btn bgColor mb-5" id="addCart">加入購物車 <i class="bi bi-cart-plus"
+                                        style="font: 60px;"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="container">
+                                <img src=".//phtoto/colombia.jpg" style="width: 100%;">
+                                <p class="m-2">哥倫比亞 克拉拉莊園 低咖啡因 半磅<br><b> NT $450</b></p>
+                                <button class="btn bgColor mb-5" id="addCart">加入購物車 <i class="bi bi-cart-plus"
+                                        style="font: 60px;"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container p-3 mb-2" style="background-color: beige; margin-top: 100px;">
+                    <h2 style="color: gray;">輸入e-mail獲得最新資訊</h2>
+                    <p class="m-3"><input type="email" placeholder="Enter e-mail" style="width:50%" id="mailEnter">
+                        <button class="btn btn-secondary m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enter</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">感謝!!!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    我們將不定期發送最新資訊
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">OK!!!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</body>

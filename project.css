@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-menuChange {
+    /* float: ;
+    background-color: rgb(196, 81, 81);
+    flex: 6;
+    color: white;
+    border: none;
+    margin: auto;
+    padding: 10px 50px 10px 50px ; */
+    display: inline-block;
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.btn-Item {
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: beige;
+    color: brown;
+}
